@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:shortcutId="compose"
+    android:enabled="true"
+    android:icon="@drawable/big_download"
+    android:shortcutShortLabel="@string/short_label1"
+    android:shortcutLongLabel="@string/long_label1"
+    android:shortcutDisabledMessage="@string/disabled_message1">
+    <intent
+      android:action="android.intent.action.MAIN"
+      android:targetPackage="com.hippo.ehviewer"
+      android:targetClass="com.hippo.ehviewer.ui.MainActivity" />
+    <!--<categories android:name="android.shortcut.conversation" />-->
+  </shortcut>
+
+</shortcuts>
